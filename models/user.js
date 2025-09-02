@@ -9,7 +9,13 @@ const User=mongoose.model('User' ,{
     },
     lastname:{
         type:String
-    }
+    },
+    email:{
+        type:String
+    },
+    password:{
+        type:String
+    },  
 }
     )
 module.exports=User;
